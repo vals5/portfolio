@@ -1,0 +1,14 @@
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+
+.box { background: var(--bg2); border: 1px solid var(--border); border-radius: 13px; padding: 1.8rem; transition: border-color .25s; }
+.box:hover { border-color: rgba(232,130,74,.35); }
+
+.boxTitle { font-family: var(--font-syne); font-weight: 700; font-size: .95rem; margin-bottom: 1.3rem; display: flex; align-items: center; gap: .55rem; color: var(--text); }
+.boxTitle i { color: var(--accent); font-size: .85rem; }
+
+.tags { display: flex; flex-wrap: wrap; gap: .55rem; }
+.tag { background: var(--bg3); border: 1px solid var(--border); border-radius: 6px; padding: .38rem .85rem; font-size: .8rem; color: var(--muted); display: flex; align-items: center; gap: .38rem; transition: border-color .2s, color .2s; }
+.tag:hover { border-color: var(--accent); color: var(--text); }
+.dot { width: 5px; height: 5px; background: var(--accent); border-radius: 50%; opacity: .7; }
+
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }

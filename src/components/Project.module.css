@@ -1,0 +1,27 @@
+.filterBar { display: flex; gap: .5rem; flex-wrap: wrap; margin-bottom: 2.2rem; }
+.fBtn { background: var(--bg2); border: 1px solid var(--border); color: var(--muted); padding: .42rem 1.1rem; border-radius: 999px; font-size: .78rem; font-family: var(--font-dm); font-weight: 500; letter-spacing: .04em; transition: all .2s; }
+.fBtn:hover, .fBtnActive { background: var(--accent) !important; border-color: var(--accent) !important; color: #0d0d0d !important; font-weight: 700 !important; }
+
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.4rem; }
+
+.card { background: var(--bg2); border: 1px solid var(--border); border-radius: 13px; overflow: hidden; transition: border-color .25s, transform .3s; }
+.card:hover { border-color: rgba(232,130,74,.45); transform: translateY(-5px); }
+
+.thumb { width: 100%; aspect-ratio: 16/10; background: var(--bg3); display: flex; align-items: center; justify-content: center; position: relative; }
+.thumb::after { content: ''; position: absolute; inset: 0; background: linear-gradient(to bottom, transparent 50%, var(--bg2)); }
+.emoji { font-size: 2.8rem; }
+.badge { position: absolute; top: .7rem; left: .7rem; z-index: 1; background: rgba(232,130,74,.13); border: 1px solid rgba(232,130,74,.28); border-radius: 999px; padding: .18rem .65rem; font-size: .63rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+
+.info { padding: 1.1rem 1.3rem 1.3rem; }
+.name { font-family: var(--font-syne); font-weight: 700; font-size: .98rem; margin-bottom: .35rem; }
+.desc { font-size: .79rem; color: var(--muted); line-height: 1.6; margin-bottom: .9rem; }
+
+.links { display: flex; gap: .55rem; }
+.pl { flex: 1; padding: .48rem; border-radius: 6px; font-size: .74rem; font-family: var(--font-dm); font-weight: 500; text-align: center; display: flex; align-items: center; justify-content: center; gap: .3rem; transition: all .2s; }
+.plGh { background: var(--bg3); border: 1px solid var(--border); color: var(--muted); }
+.plGh:hover { border-color: var(--accent); color: var(--accent); }
+.plLive { background: var(--accent); border: 1px solid var(--accent); color: #0d0d0d; font-weight: 700; }
+.plLive:hover { background: var(--accent2); }
+
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 560px) { .grid { grid-template-columns: 1fr; } }

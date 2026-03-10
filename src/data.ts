@@ -2,7 +2,7 @@ export const personal = {
     name: "Valentina Sosa",
     initials: "VS",
     role: ["Frontend Developer", "Game Designer", "Web Developer", "UI Enthuasiast"],
-    tagline: "Frontend developer & game designer from Argentina. I build interfaces and games with clean logic and attention to detail.",
+    tagline: "Frontend developer and game designer from Argentina. I build interfaces and games with clean logic and attention to detail.",
     email: "valeens12@gmail.com",
     linkedin: "https://www.linkedin.com/in/mara-valentina-sosa/",
     github: "https://www.github.com/vals5",

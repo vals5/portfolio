@@ -1,7 +1,3 @@
-// Sección About Me.
-// No necesita "use client" — no tiene interactividad,
-// se renderiza en el servidor (mejor para SEO).
-
 import { about, personal } from "@/data";
 import styles from "./About.module.css";
 
@@ -35,7 +31,7 @@ export default function About() {
       </div>
 
       <div className={`${styles.visual} fade`}>
-        <div className={styles.frame}>👩‍💻</div>
+        <div className={styles.frame}><img src="/assets/ProfilePic.jpg" alt="Valentina Sosa" /></div>
         <div className={styles.badge}>{personal.name}</div>
       </div>
 

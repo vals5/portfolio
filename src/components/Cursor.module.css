@@ -7,3 +7,7 @@
 .ring { width: 34px; height: 34px; border: 1.5px solid rgba(232,130,74,.5); transition: left .1s ease, top .1s ease, width .2s, height .2s; }
 .expand     { width: 14px !important; height: 14px !important; }
 .expandRing { width: 48px !important; height: 48px !important; opacity: .3; }
+
+@media (max-width: 900px){
+  .dot, .ring {display: none;}
+}

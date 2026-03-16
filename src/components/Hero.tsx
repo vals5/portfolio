@@ -52,7 +52,7 @@ export default function Hero() {
         <p className={styles.desc}>{personal.tagline}</p>
 
         <div className={styles.btns}>
-          <button className={styles.btnSolid} onClick={() => window.open(personal.cv)}>
+          <button className={styles.btnGhost} onClick={() => window.open(personal.cv)}>
             Download CV
           </button>
           <button className={styles.btnGhost} onClick={() => { window.location.href = "#contact"; }}>

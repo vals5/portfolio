@@ -33,7 +33,7 @@ export const skillCategories: SkillCategory[] = [
   {
     title: "Frontend Development",
     icon: "fa-solid fa-code",
-    skills: ["HTML", "CSS", "JavaScript", "React", "Responsive Design", "Git"],
+    skills: ["HTML", "CSS", "JavaScript", "React", "Responsive Design", "Git", "Next.js", "Dart"],
   },
   {
     title: "Game Development",
@@ -57,15 +57,15 @@ export type Project = {
 export const projects: Project[] = [
   {
     name: "Vinyl Store",
-    description: "E-commerce built with React. Browse and shop vinyl records with full cart functionality.",
-    emoji: "🛒",
-    type: "app",
+    description: "Fully functional e-commerce built with React. Covers the complete shopping flow (Browsing, filtering, cart management and checkout) with a focus on solid state handling over visual flair.",
+    emoji: "🌐",
+    type: "web",
     github: "https://github.com/vals5/Final-React",
     live: "https://vinyl-store-react.netlify.app/",
   },
   {
     name: "Thesis Game",
-    description: "2D/3D video game built with Unity and C# for my university thesis. Design, code and art all by me.",
+    description: "2D game developed in Unity and C# as my university thesis project. Covers complete gameplay systems and code architecture, with a focus on game design and mechanics implementation.",
     emoji: "🎮",
     type: "game",
     github: "https://github.com/vals5/THESIS",
@@ -74,9 +74,17 @@ export const projects: Project[] = [
   },
   {
     name: "JS Final Project",
-    description: "Vanilla JavaScript project showcasing DOM manipulation and interactive UI elements.",
+    description: "Vanilla JavaScript supermarket app with a focus on real-world functionality. Features persistent cart state via localStorage, dynamic DOM manipulation, and interactive UI. No frameworks, no shortcuts.",
     emoji: "🌐",
     type: "web",
     github: "https://github.com/vals5/Valentina-Sosa-Final-Js",
   }, 
+  {
+    name: "Rapi arreglo",
+    description: "Mobile app built with Flutter & Dart, currently in development. Rapi Arreglo connects homeowners with local professionals (Plumbers, electricians, and more). Full UI flow completed. From requesting or offering a service, to rating the client or professional.",
+    emoji: "📱",
+    type: "app",
+    github: "https://github.com/vals5/app-servicios",
+    live: "https://app-rapiarreglo.web.app/",
+  },
 ];
